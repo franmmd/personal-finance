@@ -44,7 +44,7 @@ def load_file() -> None:
         use_sample = False
 
 
-    @st.cache_data
+   # @st.cache_data
     def read_csv_or_excel(data, sep):
         try:
             raw_df = pd.read_csv(data, sep=sep)
